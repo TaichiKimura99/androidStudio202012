@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">ユーザー情報登録</string>
+    <string name="lbl_name">名前</string>
+    <string name="lbl_birth">誕生日</string>
+    <string name="lbl_seibetsu">性別</string>
+    <string name="rb_male">男</string>
+    <string name="rb_female">女</string>
+    <string name="lbl_child">チャイルドモード</string>
+    <string name="btn_save">保存</string>
+    <string name="title2">ECサイト</string>
+<!--    <string-array name="sp_book_list">-->
+<!--        <item>Java book</item>-->
+<!--        <item>Ruby Book</item>-->
+<!--        <item>PHP Book</item>-->
+<!--    </string-array>-->
+</resources>

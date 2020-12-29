@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#a1a9ba"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/tvLabelName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp"
+        android:background="#ffffff"
+        android:text="@string/lbl_name"
+        android:textSize="25dp" />
+    <EditText
+        android:id="@+id/nameInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+        android:layout_marginTop="5dp"
+        android:background="#ffffff"
+        android:inputType="text"/>
+
+    <TextView
+        android:id="@+id/tvLabelBirth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp"
+        android:background="#ffffff"
+        android:text="@string/lbl_birth"
+        android:textSize="25dp" />
+    <EditText
+        android:id="@+id/birthInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+        android:layout_marginTop="5dp"
+        android:background="#ffffff"
+        android:inputType="text"/>
+
+    <TextView
+        android:id="@+id/tvLabelSeibetsu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp"
+        android:background="#ffffff"
+        android:text="@string/lbl_seibetsu"
+        android:textSize="25dp" />
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:background="#FFFFFF"
+        android:orientation="horizontal"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        >
+        <RadioButton
+            android:id = "@+id/rbMale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:background="#FFFFFF"
+            android:text="@string/rb_male"/>
+        <RadioButton
+            android:id = "@+id/rbFemale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:background="#FFFFFF"
+            android:text="@string/rb_female"/>
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvLabelChild"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"
+            android:background="#ffffff"
+            android:text="@string/lbl_child"
+            android:textSize="25dp" />
+
+        <CheckBox
+            android:id="@+id/cbDrink"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="25dp"
+            android:background="#FFFFFF"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="保存" />
+
+</LinearLayout>
